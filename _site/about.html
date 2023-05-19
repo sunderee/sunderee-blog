@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sunderee Blog - About</title>
+
+
+
+<link rel="canonical" href="https://sunderee.github.io/sunderee-blog/about.html">
+<meta name="twitter:title" content="Sunderee Blog - About">
+<meta property="og:title" content="Sunderee Blog - About">
+
+
+<link rel="sitemap" href="https://sunderee.github.io/sunderee-blog/sitemap.xml" type="application/xml" title="Sitemap">
+<meta name="author" content="Peter Aleksander Bizjak">
+<meta name="twitter:creator" content="@peteralexbizjak">
+<meta name="description" content="Personal blog filled with things I find interesting to write about.">
+<meta name="keywords" content="Blog, Technology, Flutter, Dart, Node.js, Nest.js, Angular, DevOps, CyberOps">
+<meta name="generator" content="HydePHP v1.1.0">
+<meta property="og:site_name" content="Sunderee Blog">
+
+
+
+
+<style>[x-cloak] {display: none!important}</style>
+
+
+    <link rel="stylesheet" href="media/app.css?v=ca99205ed438f1c291d827396d5adafb">
+
+
+
+
+
+    
+    <meta id="meta-color-scheme" name="color-scheme" content="light">
+    <script>if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) { document.documentElement.classList.add('dark'); document.getElementById('meta-color-scheme').setAttribute('content', 'dark');} else { document.documentElement.classList.remove('dark') } </script>
+</head>
+<body id="app" class="flex flex-col min-h-screen overflow-x-hidden dark:bg-gray-900 dark:text-white" x-data="{ navigationOpen: false }" x-on:keydown.escape="navigationOpen = false;">
+    <a href="#content" id="skip-to-content" class="sr-only focus:not-sr-only bg-black border-4 border-yellow-400 focus:absolute focus:mt-2 focus:mx-auto focus:p-2 focus:w-64 h-auto left-0 overflow-auto right-0 rounded-md text-center text-lg text-white top-auto z-50 ">Skip to content</a>    <nav aria-label="Main navigation" id="main-navigation" class="flex flex-wrap items-center justify-between p-4 shadow-lg sm:shadow-xl md:shadow-none dark:bg-gray-800">
+    <div class="flex flex-grow items-center flex-shrink-0 text-gray-700 dark:text-gray-200">
+        <a href="index.html" class="font-bold px-4" aria-label="Home page">
+    Sunderee Blog
+</a>
+        <div class="ml-auto">
+            <button @click="toggleTheme" class="theme-toggle-button flex items-center px-2 py-1 hover:text-gray-700 dark:text-gray-200" title="Toggle theme">
+        <span class="sr-only">Toggle dark theme</span>
+        <svg width="1.25rem" height="1.25rem" class="w-5 h-5 hidden dark:block" fill="#FFFFFF" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+        <svg width="1.25rem" height="1.25rem" class="w-5 h-5 block dark:hidden" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+    </button>
+        </div>
+    </div>
+
+    <div class="block md:hidden">
+        <button id="navigation-toggle-button" class="flex items-center px-3 py-1 hover:text-gray-700 dark:text-gray-200"
+                aria-label="Toggle navigation menu" @click="navigationOpen = ! navigationOpen">
+            <svg x-show="! navigationOpen" title="Open Navigation Menu" class="dark:fill-gray-200"
+                 style="display: block;"
+                 id="open-main-navigation-menu-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24"
+                 width="24"><title>Open Menu</title>
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+            </svg>
+            <svg x-show="navigationOpen" title="Close Navigation Menu" class="dark:fill-gray-200" style="display: none;"
+                 id="close-main-navigation-menu-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24"
+                 width="24"><title>Close Menu</title>
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+            </svg>
+        </button>
+    </div>
+
+    <div id="main-navigation-links" class="w-full x-uncloak-md md:flex flex-grow md:flex-grow-0 md:items-center md:w-auto px-6 -mx-4 border-t mt-3 pt-3 md:border-none md:mt-0 md:py-0 border-gray-200 dark:border-gray-700"
+         :class="navigationOpen ? '' : 'hidden'" x-cloak>
+        <ul aria-label="Navigation links" class="md:flex-grow md:flex justify-end">
+                            <li class="md:mx-2">
+                                            <a href="index.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Home</a>                                    </li>
+                            <li class="md:mx-2">
+                                            <a href="about.html" aria-current="page" class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100 border-l-4 border-indigo-500 md:border-none font-medium -ml-6 pl-5 md:ml-0 md:pl-0 bg-gray-100 dark:bg-gray-800 md:bg-transparent dark:md:bg-transparent">About</a>                                    </li>
+                    </ul>
+    </div>
+</nav>
+    <section>
+        
+    <main id="content" class="mx-auto max-w-7xl py-16 px-8">
+        <article class="mx-auto prose dark:prose-invert">
+            <p>Hi there! I'm Peter - the only code-crunching, networking-nurturing, cybersecurity sleuthing, pun-spewing tech guru you'll find in this corner of the internet.</p>
+<p>I've got a resume that stretches longer than a Python script with no comments (which can both be a good thing, or a bad thing, depending on whose Python code you're looking at):</p>
+<ol>
+<li>Mobile dev? Check.</li>
+<li>Backend web dev with (based) frontend opinions? Double check.</li>
+<li>(Former) CCNA instructor? Yup.</li>
+<li>Oh, yeah, I got that CEH certificate.</li>
+</ol>
+<p>My philosophy is simple - mix technical know-how with people skills, toss in a healthy respect for security, shake it all up, and <em>ево га</em>! You've got a delicious cocktail of client satisfaction. Just watch out for the hangover.</p>
+<p>Now, I've got a thing for Flutter and native Android (Kotlin and Java, if you're asking), but I'm also courting Nest.js and Go. It's a bit of a coding love square, you could say.</p>
+<p>Speaking of love, let's talk about <a href="https://www.reddit.com/r/mAndroidDev/">r/mAndroidDev</a>. It's my favorite subreddit. Why? Because I enjoy triggering my PTSD. That's right, there's no better way to start the day than remembering the times before coroutines when we were using <a href="https://android.googlesource.com/platform/frameworks/base/+/master/core/java/android/os/AsyncTask.java"><code>AsyncTask</code></a>. Oh, the nostalgia! <em>Please erase my memory...</em></p>
+<p>I'm also a big believer in the supremacy of TypeScript over JavaScript. In my book, JavaScript is the wild west of the web, and TypeScript is the new sheriff in town. Because, let's be honest, in a world of <code>undefined is not a function</code>, who doesn't want a little extra safety? Also, if I see you use <code>any</code> when you're too lazy to figure out what the proper type should be... Oof.</p>
+<p>Now, if you catch me shouting &quot;KOTLIN!!!&quot; at Twitter grifters asking about programming languages, don't be alarmed. It's just me being a Kotlin evangelist. Can I get <del>an amen</del> reified type parameter?</p>
+<p>As for frontend frameworks, I've got to give it to Angular. Why? Because unlike other frameworks, I've already mastered Nest.js, and my brain can only hold so much. This, my friends, is what I call my &quot;boomer developer&quot; moment.</p>
+<p>So, come join me in my quest to turn the web into a more secure, accessible, and humorous place. Or, just find me on Twitter, randomly expressing my inner developer thoughts. Who knows, I might even make you chuckle. I mean, we all need a good laugh when someone assigns you a Jira ticket with a title &quot;Doesn't work&quot; with no description.</p>
+
+        </article>
+    </main>
+
+    </section>
+
+    <footer aria-label="Page footer" class="flex py-4 px-6 w-full text-center mt-auto bg-slate-100 dark:bg-gray-800">
+        <div class="prose dark:prose-invert text-center mx-auto">
+            <p>Built with the help of <a href="https://github.com/hydephp/hyde">HydePHP</a> + lots of ❤️, ☕️ and 😂</p>
+
+        </div>
+        <a href="#app" aria-label="Go to top of page" class="float-right">
+            <button title="Scroll to top">
+                <svg width="1.5rem" height="1.5rem" role="presentation" class="fill-current text-gray-500 h-6 w-6"
+                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+                </svg>
+            </button>
+        </a>
+    </footer>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.3/dist/cdn.min.js" integrity="sha256-gOkV4d9/FmMNEkjOzVlyM2eNAWSUXisT+1RbMTTIgXI=" crossorigin="anonymous"></script>
+
+<script>
+    function toggleTheme() {
+        if (localStorage.getItem('color-theme') === 'dark' || !('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.remove("dark");
+            localStorage.setItem('color-theme', 'light');
+            document.getElementById('meta-color-scheme').setAttribute('content', 'light');
+        } else {
+            document.documentElement.classList.add("dark");
+            localStorage.setItem('color-theme', 'dark');
+            document.getElementById('meta-color-scheme').setAttribute('content', 'dark');
+        }
+    }
+</script>
+
+
+</body>
+</html>

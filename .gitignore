@@ -1,0 +1,24 @@
+# IDEs
+.idea
+.vscode
+
+# OS
+.DS_Store
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# PHP, Composer
+composer.phar
+/vendor/
+/builds
+.phpunit.result.cache
+
+# Node
+node_modules
+*.lock
+package-lock.json
+
+# Environment variables
+.env
