@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Create dotenv
+      - name: Create .env
         run: echo "SITE_URL=https://sunderee.github.io/sunderee-blog" > .env
       - name: Install dependencies
         run: composer install --prefer-dist --no-progress
@@ -26,18 +26,18 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: 'gh-pages'
+          ref: "gh-pages"
       - name: Empty site directory
         run: rm -rf *
       - name: Download artifact
         uses: actions/download-artifact@v3
         with:
           name: site
-          path: '.'
+          path: "."
       - name: Create .nojekyll file
         run: touch .nojekyll
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
-          add: '.'
-          message: 'Upload compiled site ${{ github.sha }}'
+          add: "."
+          message: "Upload compiled site ${{ github.sha }}"
