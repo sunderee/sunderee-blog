@@ -291,7 +291,7 @@ return [
     |
     */
 
-    'footer' => 'Built with the help of [HydePHP](https://github.com/hydephp/hyde) + lots of ❤️, ☕️ and 😂',
+    'footer' => 'Built on [HydePHP](https://github.com/hydephp/hyde) | Based on ❤️, ☕️, 🧠 + 🤖 and 😂',
 
     /*
     |--------------------------------------------------------------------------
