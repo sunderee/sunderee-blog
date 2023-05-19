@@ -17,8 +17,6 @@ composer.phar
 
 # Node
 node_modules
-*.lock
-package-lock.json
 
 # Environment variables
 .env
